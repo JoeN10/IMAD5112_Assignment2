@@ -33,10 +33,10 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Creating wrapper
         run: chmod +x ./gradlew
-        working-directory: Example1
+        working-directory: TheFlashcardApp
 
       - name: Build with Gradle
         run: ./gradlew build
-        working-directory: Example1
+        working-directory: TheFlashcardApp
          
 
